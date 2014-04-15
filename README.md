@@ -10,13 +10,13 @@ Here is a minimum code to use quickly. As soon as all images are loaded, the ani
 
 1. Simple create an img tag having an ID.
 ```html
-<img id="aniHolder1" src="" />
+<img id="seqHolder" src="" />
 ```
 
 2. Create an instance with minimum parameters
 ```javascript
-var imgTagID = "aniHolder1";
-var imgFilePath = "images/sample1_x.jpg";
+var imgTagID = "seqHolder";
+var imgFilePath = "images/seq_x.jpg";
 var imgTotal = 60;
 var frameRate = 30;
 var mAni = new ImageSequence(imgTagID, imgFilePath, imgTotal, frameRate);
