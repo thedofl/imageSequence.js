@@ -13,7 +13,7 @@ Here is a minimum code to use quickly. As soon as all images are loaded, the ani
 <img id="aniHolder1" src="" />
 ```
 
-2. Creat an instance with minimum parameters
+2. Create an instance with minimum parameters
 ```javascript
 var imgTagID = "aniHolder1";
 var imgFilePath = "images/sample1_x.jpg";
