@@ -1,7 +1,7 @@
 ImageSequence.js
 ==================
 
-Simple but powerful Image Sequence Engine. This would provides self-image loading handler and the most thinkable animation controls.
+Simple but powerful Image Sequence Engine. This would provides self-image loading handler and the most expected animation controls.
 
 
 Quick Usage
