@@ -59,10 +59,10 @@ mAni.loadSeq();
 Properties
 -----------------
 ```javascript
-// Frame Rate
+// Frame Rate. 24 is default value.
 .frameRate
+// Current frame number. It starts from 0
 .currentNum
-
 ```
 
 Animation Control
