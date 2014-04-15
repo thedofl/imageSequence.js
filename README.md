@@ -8,12 +8,12 @@ Quick Usage
 -----------
 Here is a minimum code to use quickly. As soon as all images are loaded, the animation would start automatically and loop as default.
 
-1. Simple create an img tag having an ID.
+1.Simply create an img tag having an ID in your html page.
 ```html
 <img id="seqHolder" src="" />
 ```
 
-2. Create an instance with minimum parameters
+2.Create an instance with minimum parameters in your script
 ```javascript
 var imgTagID = "seqHolder";
 var imgFilePath = "images/seq_x.jpg";
@@ -28,7 +28,6 @@ Setup
 ---------------
 
 ### 1. Setup an instance of image sequence sprite
-
 ```javascript
 var imgTagID = "aniHolder1";
 var imgFilePath = "images/sample1_x.jpg"; // image number counts from '0'
@@ -39,7 +38,6 @@ var mAni = new ImageSequence(imgTagID, imgFilePath, imgTotal, frameRate);
 ```
 
 ### 2. Setup Event Callbacks
-
 ```javascript 
 mAni.updateLoadFunc = onUpdateLoadSeq;
 mAni.finishedLoadFunc = onFinishedLoadSeq;
@@ -62,7 +60,6 @@ function onFinishedLoadSeq()
 ```
 
 ### 3. Load image sequences and play
-
 ```javascript 
 // As soon as loaded all seq, play automatically and loop as default
 mAni.loadSeq();
@@ -109,7 +106,7 @@ Animation Control
 
 Kill image sequence instance
 -----------------
- 
+This would clear and remove all related elements. 
 ```javascript
 mAni.dispose();
 delete mAni;
