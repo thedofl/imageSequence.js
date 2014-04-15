@@ -109,7 +109,7 @@ Kill image sequence instance
 This would clear and remove all related elements. 
 ```javascript
 mAni.dispose();
-delete mAni;
+mAni = undefined;
 ```
 
 
