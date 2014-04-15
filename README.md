@@ -4,6 +4,20 @@ ImageSequence.js
 Simple but powerful Image Sequence Engine. This would provides self-image loading handler and the most thinkable animation controls.
 
 
+Quick Usage
+-----------
+Here is a minimum code to use quickly. As soon as all images are loaded, the animation would start automatically and loop as default.
+
+```javascript
+var imgTagID = "aniHolder1";
+var imgFilePath = "images/sample1_x.jpg";
+var imgTotal = 60;
+var frameRate = 30;
+var mAni = new ImageSequence(imgTagID, imgFilePath, imgTotal, frameRate);
+mAni.loadSeq();
+```
+
+
 Setup
 ---------------
 
@@ -96,18 +110,7 @@ delete mAni;
 ```
 
 
-Quick Usage
------------
-Here is a simple code to use quickly. As soon as all images are loaded, the animation would start automatically and loop as default.
 
-```javascript
-var imgTagID = "aniHolder1";
-var imgFilePath = "images/sample1_x.jpg";
-var imgTotal = 60;
-var frameRate = 30;
-var mAni = new ImageSequence(imgTagID, imgFilePath, imgTotal, frameRate);
-mAni.loadSeq();
-```
 
 
 
