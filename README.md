@@ -1,7 +1,7 @@
 #imageSequence.js
 ================
 
-Simple but powerful Image Sequence Engine.
+Simple but powerful Image Sequence Engine. This would provides self-image loading handler and the most thinkable animation controls.
 
 
 Setup
@@ -11,7 +11,7 @@ Setup
 
 ```javascript
 var imgTagID = "aniHolder1";
-var imgFilePath = "images/sample1_x.jpg";
+var imgFilePath = "images/sample1_x.jpg"; // image number counts from '0'
 var imgTotal = 60;
 var frameRate = 30;
 
