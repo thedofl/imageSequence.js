@@ -98,7 +98,8 @@ delete mAni;
 
 Quick Usage
 -----------
-Here is a simple code to use quickly. 
+Here is a simple code to use quickly. As soon as all images are loaded, the animation would start automatically and loop as default.
+
 ```javascript
 var imgTagID = "aniHolder1";
 var imgFilePath = "images/sample1_x.jpg";
