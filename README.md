@@ -44,6 +44,15 @@ function onFinishedLoadSeq()
 ### Start to load image sequences
 
 ```javascript 
+// As soon as loaded all seq, play automatically and loop as default
+mAni.loadSeq();
+
+// Or you can set autoplay,1st parameter, and autoLoop, manually
+mAni.loadSeq(false, false);
+
+// or you can set each parameter directly before calling loadSeq().
+mAni.autoAplay = false;
+mAni.autoLoop = false;
 mAni.loadSeq();
 ```
 
