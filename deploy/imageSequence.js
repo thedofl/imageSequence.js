@@ -171,10 +171,24 @@ ImageSequence.prototype.stop = function()
     this.currentNum = 0;
 };
 
-/**
- * go to a target frame and play
- * @param {Number} frame number
- */
+
+ImageSequence.prototype.nextFrame = function()
+{
+    this.currentNum++;
+    if(this.currentNum >= this.imageTotal) this.currentNum = this.imageTotal;
+
+    this.drawCurrentFrame();
+};
+
+ImageSequence.prototype.prevFrame = function()
+{
+    this.currentNum--;
+    if(this.currentNum < 0) this.currentNum = 0;
+
+    this.drawCurrentFrame();
+};
+
+
 ImageSequence.prototype.gotoAndPlay = function(inNum)
 {
 
