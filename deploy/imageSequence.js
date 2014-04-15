@@ -92,7 +92,7 @@ var ImageSequence = function(inImgTagID, inImageFilePath, inImageTotal, inFrameR
 
 
     // Play properties
-    this.autoAplay = true;
+    this.autoPlay = true;
     this.autoLoop = true;
 
 
@@ -104,6 +104,13 @@ var ImageSequence = function(inImgTagID, inImageFilePath, inImageTotal, inFrameR
     //this.finishedAnimationFunc = $.noop;
 
 
+    this.settings = {
+        frameRate: '',
+        imagePath: ''
+
+    }
+
+
 };
 
 
@@ -113,8 +120,16 @@ var ImageSequence = function(inImgTagID, inImageFilePath, inImageTotal, inFrameR
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-ImageSequence.prototype.loadSeq = function()
+ImageSequence.prototype.loadSeq = function(inAutoPlay, inAutoLoop)
 {
+
+    if(typeof inAutoPlay !== 'undefined')
+    {
+        this.autoPlay = inAutoPlay;
+        console.log("dfdf");
+    }
+    if(typeof inAutoLoop !== 'undefined') this.autoLoop = inAutoLoop;
+
 
     // Generate Tag
     var dummyTagId = this.imgTagID + "-dummy";
@@ -225,12 +240,6 @@ ImageSequence.prototype.gotoAndStop = function(inNum)
 
 
 
-ImageSequence.prototype.getCurrentFrameNum = function()
-{
-    return this.currentNum;
-}
-
-
 /* ---------------------------------------------------------------------------------
  *
  * DISPOSE
@@ -286,7 +295,7 @@ ImageSequence.prototype.onLoadedSequence = function()
     var self = this;
     setTimeout(function(){
 
-            if(self.autoAplay)
+            if(self.autoPlay)
                 self.play();
 
             //self.setImageTagSize();

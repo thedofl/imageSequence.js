@@ -2,6 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_25.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_26.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_27.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_28.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_29.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_30.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_31.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_32.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_33.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_34.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_35.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_36.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_37.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_38.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_39.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_41.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_42.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_43.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_44.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_45.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_46.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_47.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_48.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_49.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_50.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_51.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_52.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_53.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_54.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_55.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_56.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_57.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_58.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_59.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_9.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/imageSequence.js" afterPath="$PROJECT_DIR$/deploy/imageSequence.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/index.html" afterPath="$PROJECT_DIR$/examples/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -9,8 +69,8 @@
     <ignored path="imageSequenceJS.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397584128730" ignored="false" />
-    <file path="/index.html" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397587701154" ignored="false" />
-    <file path="/imageSequence.js" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397586674413" ignored="false" />
+    <file path="/index.html" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397593601392" ignored="false" />
+    <file path="/imageSequence.js" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397593506587" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,19 +90,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="imageSequence.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="imageSequence.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deploy/imageSequence.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="140" selection-end="140" vertical-scroll-proportion="0.085574575">
-              <folding />
+            <state line="215" column="22" selection-start="4669" selection-end="4679" vertical-scroll-proportion="-25.36">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="0" selection-start="494" selection-end="1660" vertical-scroll-proportion="-42.5">
+            <state line="15" column="9" selection-start="307" selection-end="307" vertical-scroll-proportion="0.18322475">
               <folding />
             </state>
           </provider>
@@ -66,8 +128,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/examples/index.html" />
         <option value="$PROJECT_DIR$/deploy/imageSequence.js" />
+        <option value="$PROJECT_DIR$/examples/index.html" />
       </list>
     </option>
   </component>
@@ -286,16 +348,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/index.html">
+    <entry file="file://$PROJECT_DIR$/deploy/imageSequence.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="494" selection-end="1660" vertical-scroll-proportion="-42.5">
-          <folding />
+        <state line="215" column="22" selection-start="4669" selection-end="4679" vertical-scroll-proportion="-25.36">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deploy/imageSequence.js">
+    <entry file="file://$PROJECT_DIR$/examples/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="140" selection-end="140" vertical-scroll-proportion="0.085574575">
+        <state line="15" column="9" selection-start="307" selection-end="307" vertical-scroll-proportion="0.18322475">
           <folding />
         </state>
       </provider>
