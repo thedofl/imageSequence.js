@@ -26,7 +26,7 @@
             //
             // Set up a sequence sprite
             //
-            var imgTagID = "aniHolder1";
+            var imgTagID = "seqHolder";
             var imgFilePath = "images/seq_x.jpg";
             var imgTotal = 60;
             var frameRate = 30;
@@ -55,17 +55,17 @@
             //
             function onUpdateLoadSeq(inLoadedImages, inTotalImages)
             {
-                console.log(" -- loaded : " + inLoadedImages + " / " + inTotalImages);
+                //console.log(" -- loaded : " + inLoadedImages + " / " + inTotalImages);
             }
 
             function onFinishedLoadSeq()
             {
-                console.log(" -- onFinishedLoadSeq");
+                //console.log(" -- onFinishedLoadSeq");
             }
 
             function onSequenceIsReady()
             {
-                console.log(" -- onSequenceIsReady");
+                //console.log(" -- onSequenceIsReady");
 
                 addController();
 
@@ -87,6 +87,16 @@
                 this.pause = function(){
                     mAni.pause();
                 }
+                this.kill = function()
+                {
+                    mAni.dispose();
+                    mAni = undefined;
+//                    delete mAni;
+
+                    $('#' + imgTagID).remove();
+
+
+                }
 
             };
 
@@ -99,6 +109,7 @@
                 var seekListener = gui.add(aniController, 'seekTo', 0, 59);
                 gui.add(aniController, "play");
                 gui.add(aniController, "pause");
+                gui.add(aniController, "kill");
 
 
 //            gui.add(text, 'explode');
@@ -130,7 +141,7 @@
 <body>
 
 
-<img id="aniHolder1" src="" />
+<img id="seqHolder" src="" />
 
 
 

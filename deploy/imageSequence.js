@@ -32,6 +32,8 @@ var ImageSequence = function(inImgTagID, inImageFilePath, inImageTotal, inFrameR
     this.imgTagID = inImgTagID;
     this.$imgTag = $('#' + this.imgTagID);
 
+    this.imgTag = document.getElementById( this.imgTagID );
+
     var imageFilePath = inImageFilePath.split(".");
     this.imageFileName = imageFilePath[0].split("x")[0];
     this.imageFileFormat = imageFilePath[1];
@@ -39,8 +41,6 @@ var ImageSequence = function(inImgTagID, inImageFilePath, inImageTotal, inFrameR
     this.frameRate = typeof inFrameRate !== 'undefined' ? inFrameRate : 24;
 
 
-
-    this.$dummyTag;
 
     this.prerenderedImageID = this.imgTagID;
     this.imageW, this.imageH;
@@ -94,19 +94,12 @@ ImageSequence.prototype.loadSeq = function(inAutoPlay, inAutoLoop)
     if(typeof inAutoLoop !== 'undefined') this.autoLoop = inAutoLoop;
 
 
-    // Generate Tag
-    var dummyTagId = this.imgTagID + "-dummy";
-    var dummyTag = '<div id="' + dummyTagId + '" ></div>';
-    $('body').append(dummyTag);
-    this.$dummyTag = $('#' + dummyTagId);
-    this.$dummyTag.css({"position":"absolute", "visibility":"hidden", "top":"-9000px"});
-
 
 
     // Generate Image Loader tag
     var imgLoaderTagID = this.imgTagID + "_loader";
     var imgLoaderTag = '<div id="' + imgLoaderTagID + '" ></div>';
-    this.$dummyTag.append(imgLoaderTag);
+    $('body').append(imgLoaderTag);
 
     this.$imgLoader = $('#' + imgLoaderTagID);
     this.$imgLoader.css({"position":"absolute", "visibility":"hidden", "top":"-9000px"});
@@ -208,16 +201,12 @@ ImageSequence.prototype.gotoAndStop = function(inNum)
  * DISPOSE
  *
  --------------------------------------------------------------------------------- */
-ImageSequence.prototype.dispose = function(inRemoveImgTag)
+ImageSequence.prototype.dispose = function()
 {
     this.pause();
 
-
     this.$imgLoader.remove();
-    this.$dummyTag.remove();
 
-    if(inRemoveImgTag)
-        this.$imgTag.remove();
 
 };
 
@@ -241,6 +230,7 @@ ImageSequence.prototype.onUpdateLoadSequence = function(inLoadedImages, inTotalI
 
 ImageSequence.prototype.onLoadedSequence = function()
 {
+
 
 
     // Call finished callback
@@ -308,7 +298,6 @@ ImageSequence.prototype.loop = function()
         {
             this.isFirstLoop = false;
             this.$imgLoader.css({"display": "none"});
-            this.$dummyTag.css({"display": "none"});
         }
     }
 
