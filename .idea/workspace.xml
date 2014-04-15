@@ -2,73 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_27.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_28.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_31.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_33.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_34.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_35.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_36.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_37.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_38.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_39.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_41.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_42.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_43.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_44.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_45.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_46.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_47.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_48.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_49.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_50.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_51.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_52.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_53.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_54.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_55.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_56.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_57.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_58.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_59.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/images/sample1_9.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/imageSequence.js" afterPath="$PROJECT_DIR$/deploy/imageSequence.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/index.html" afterPath="$PROJECT_DIR$/examples/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="imageSequenceJS.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397584128730" ignored="false" />
+    <file path="/Dummy.txt" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397597820277" ignored="false" />
     <file path="/index.html" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397593601392" ignored="false" />
     <file path="/imageSequence.js" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397593506587" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -90,21 +29,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="imageSequence.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="imageSequence.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deploy/imageSequence.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="215" column="22" selection-start="4669" selection-end="4679" vertical-scroll-proportion="-25.36">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="17" column="38" selection-start="546" selection-end="546" vertical-scroll-proportion="0.20334928">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="9" selection-start="307" selection-end="307" vertical-scroll-proportion="0.18322475">
+            <state line="15" column="9" selection-start="307" selection-end="307" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
@@ -128,8 +65,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/deploy/imageSequence.js" />
         <option value="$PROJECT_DIR$/examples/index.html" />
+        <option value="$PROJECT_DIR$/deploy/imageSequence.js" />
       </list>
     </option>
   </component>
@@ -165,7 +102,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -232,6 +168,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,7 +178,7 @@
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -261,23 +198,23 @@
     <frame x="65" y="22" width="1574" height="1400" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21073298" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21335079" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -341,6 +278,20 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/deploy/imageSequence.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="9" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/examples/scripts/dat.gui.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -348,18 +299,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deploy/imageSequence.js">
+    <entry file="file://$PROJECT_DIR$/examples/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="215" column="22" selection-start="4669" selection-end="4679" vertical-scroll-proportion="-25.36">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="15" column="9" selection-start="307" selection-end="307" vertical-scroll-proportion="-0.625">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/index.html">
+    <entry file="file://$PROJECT_DIR$/deploy/imageSequence.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="9" selection-start="307" selection-end="307" vertical-scroll-proportion="0.18322475">
+        <state line="17" column="38" selection-start="546" selection-end="546" vertical-scroll-proportion="0.20334928">
           <folding />
         </state>
       </provider>

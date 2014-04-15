@@ -6,57 +6,20 @@
 
 
 
+ // Quick Usage
+ Here is a minimum code to use quickly. As soon as all images are loaded, the animation would start automatically and loop as default.
 
- //
- // Set up a sequence sprite
- //
- var imgTagID = "aniHolder1";
- var imgFilePath = "images/sample1_x.jpg";
+ 1.Simply create an img tag having an ID in your html page.
+ <img id="seqHolder" src="" />
+
+ 2.Create an instance with minimum parameters in your script
+ var imgTagID = "seqHolder";
+ // image number counts from '0'
+ var imgFilePath = "images/seq_x.jpg";
  var imgTotal = 60;
  var frameRate = 30;
-
  var mAni = new ImageSequence(imgTagID, imgFilePath, imgTotal, frameRate);
-
- //
- // Set Event Callbacks
- //
- mAni.updateLoadFunc = onUpdateLoadSeq;
- mAni.finishedLoadFunc = onFinishedLoadSeq;
- mAni.sequenceIsReadyFunc = onSequenceIsReady;
-
- function onUpdateLoadSeq(inLoadedImages, inTotalImages)
- {
- console.log(" -- loaded : " + inLoadedImages + " / " + inTotalImages);
- }
-
- function onFinishedLoadSeq()
- {
- console.log(" -- onFinishedLoadSeq");
- }
-
- function onSequenceIsReady()
- {
- console.log(" -- onSequenceIsReady");
- }
-
- //
- // Start to load image sequences
- //
  mAni.loadSeq();
-
-
- // Control animation
- mAni.play();
- mAni.pause();
- mAni.stop();
- mAni.gotoAndPlay(10);
- mAni.gotoAndStop(10);
-
-
-
- // Kill DImageSequence
- mAni.dispose();
- delete mAni;
 
 
  */
