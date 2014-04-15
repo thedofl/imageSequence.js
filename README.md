@@ -1,7 +1,7 @@
 imageSequence.js
 ================
 
-Simple, lightweigh Image Sequence Engine.
+Simple but powerful Image Sequence Engine.
 
 
 Setup
