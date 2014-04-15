@@ -6,26 +6,43 @@
 
 
 
- //    TODO
- //    Used Interval for now but
- //    Change to use 'requestanimationframe' later ????
 
+ //
+ // Set up a sequence sprite
+ //
+ var imgTagID = "aniHolder1";
+ var imgFilePath = "images/sample1_x.jpg";
+ var imgTotal = 60;
+ var frameRate = 30;
 
+ var mAni = new ImageSequence(imgTagID, imgFilePath, imgTotal, frameRate);
 
+ //
+ // Set Event Callbacks
+ //
+ mAni.updateLoadFunc = onUpdateLoadSeq;
+ mAni.finishedLoadFunc = onFinishedLoadSeq;
+ mAni.sequenceIsReadyFunc = onSequenceIsReady;
 
+ function onUpdateLoadSeq(inLoadedImages, inTotalImages)
+ {
+ console.log(" -- loaded : " + inLoadedImages + " / " + inTotalImages);
+ }
 
- // Init instance of DImageSequence
- var imgTagID = "seqHolder"; // <img> tag id to display sequence images
- var imgFilePath = "assets/seq/jpeg/male_with_alpha_x.jpg"; // image number starts from '0'
- var imgTotal = 100; // total image number.
- var fps = 60;
+ function onFinishedLoadSeq()
+ {
+ console.log(" -- onFinishedLoadSeq");
+ }
 
- mAni = new DImageSequence(imgTagID, imgFilePath, imgTotal, fps);
+ function onSequenceIsReady()
+ {
+ console.log(" -- onSequenceIsReady");
+ }
 
-
- // Load Sequence images
- var autoPlay = true; // If set 'false' then call 'play()' manually
- mAni.loadSeq(onSequenceIsReady, onFinishedLoadSeq, onUpdateLoadSeq, autoPlay);
+ //
+ // Start to load image sequences
+ //
+ mAni.loadSeq();
 
 
  // Control animation

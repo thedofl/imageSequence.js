@@ -4,11 +4,12 @@
     <list default="true" id="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/imageSequence.js" afterPath="$PROJECT_DIR$/deploy/imageSequence.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/index.html" afterPath="$PROJECT_DIR$/examples/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="imageSequenceJS.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397584128730" ignored="false" />
-    <file path="/index.html" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397587069801" ignored="false" />
+    <file path="/index.html" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397587701154" ignored="false" />
     <file path="/imageSequence.js" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397586674413" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,21 +30,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="imageSequence.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="imageSequence.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deploy/imageSequence.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="148" column="29" selection-start="3648" selection-end="3663" vertical-scroll-proportion="-16.36">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="7" column="0" selection-start="140" selection-end="140" vertical-scroll-proportion="0.085574575">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="0" selection-start="2205" selection-end="2205" vertical-scroll-proportion="1.0138437">
+            <state line="68" column="0" selection-start="494" selection-end="1660" vertical-scroll-proportion="-42.5">
               <folding />
             </state>
           </provider>
@@ -67,8 +66,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/deploy/imageSequence.js" />
         <option value="$PROJECT_DIR$/examples/index.html" />
+        <option value="$PROJECT_DIR$/deploy/imageSequence.js" />
       </list>
     </option>
   </component>
@@ -287,18 +286,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deploy/imageSequence.js">
+    <entry file="file://$PROJECT_DIR$/examples/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="29" selection-start="3648" selection-end="3663" vertical-scroll-proportion="-16.36">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="68" column="0" selection-start="494" selection-end="1660" vertical-scroll-proportion="-42.5">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/index.html">
+    <entry file="file://$PROJECT_DIR$/deploy/imageSequence.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="0" selection-start="2205" selection-end="2205" vertical-scroll-proportion="1.0138437">
+        <state line="7" column="0" selection-start="140" selection-end="140" vertical-scroll-proportion="0.085574575">
           <folding />
         </state>
       </provider>
