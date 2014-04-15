@@ -8,6 +8,12 @@ Quick Usage
 -----------
 Here is a minimum code to use quickly. As soon as all images are loaded, the animation would start automatically and loop as default.
 
+1. Simple create an img tag having an ID.
+```html
+<img id="aniHolder1" src="" />
+```
+
+2. Creat an instance with minimum parameters
 ```javascript
 var imgTagID = "aniHolder1";
 var imgFilePath = "images/sample1_x.jpg";
