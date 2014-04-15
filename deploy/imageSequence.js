@@ -56,7 +56,7 @@ var ImageSequence = function(inImgTagID, inImageFilePath, inImageTotal, inFrameR
     this.imageFileName = imageFilePath[0].split("x")[0];
     this.imageFileFormat = imageFilePath[1];
     this.imageTotal = inImageTotal;
-    this.frameRate = typeof inFrameRate !== 'undefined' ? inFrameRate : 190;
+    this.frameRate = typeof inFrameRate !== 'undefined' ? inFrameRate : 24;
 
 
 
@@ -69,6 +69,7 @@ var ImageSequence = function(inImgTagID, inImageFilePath, inImageTotal, inFrameR
 
     this.isFirstLoop = true;
     this.isAnimationOn = false;
+
 
 
 
@@ -89,11 +90,12 @@ var ImageSequence = function(inImgTagID, inImageFilePath, inImageTotal, inFrameR
 };
 
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////// PUBLIC METHODS
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-/**
- * load image sequences
- * @param {Number} roll the roll/bank angle in radians
- */
 ImageSequence.prototype.loadSeq = function()
 {
 
@@ -130,11 +132,7 @@ ImageSequence.prototype.loadSeq = function()
 };
 
 
-/* ---------------------------------------------------------------------------------
- *
- * CONTROL ANIMATION
- *
- --------------------------------------------------------------------------------- */
+
 ImageSequence.prototype.play = function()
 {
     if(this.isAnimationOn) return;
@@ -327,19 +325,16 @@ ImageSequence.prototype.loop = function()
 
 
 
+
+
 };
 
 ImageSequence.prototype.drawCurrentFrame = function()
 {
-
-        var src = this.imageFileName + this.currentNum + "." +this.imageFileFormat;
-        $(this.$imgTag).attr("src", src);
-
+    var src = this.imageFileName + this.currentNum + "." +this.imageFileFormat;
+    $(this.$imgTag).attr("src", src);
 
 };
-
-
-
 
 
 
