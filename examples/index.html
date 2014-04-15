@@ -27,15 +27,12 @@
             // Set up a sequence sprite
             //
             var imgTagID = "seqHolder";
-            var imgFilePath = "images/seq_x.jpg";
+            var imgFilePath = "images/seq_x.jpg"; // image number counts from '0'
             var imgTotal = 60;
             var frameRate = 30;
 
             var mAni = new ImageSequence(imgTagID, imgFilePath, imgTotal, frameRate);
 
-//            var setting = new mAni.Setting(imageTagarfdks, jakflm dfsdf);
-//            mAni = new ImageSequence(setting);
-//            setting.handler = fjdkfls;
 
 
             //
@@ -66,7 +63,6 @@
             function onSequenceIsReady()
             {
                 //console.log(" -- onSequenceIsReady");
-
                 addController();
 
             }
@@ -74,9 +70,9 @@
 
 
 
-            // ------------------------------------------------------------------------
-            // ------------------------------------------------------------------------
-            // ------------------------------------------------------------------------
+            //
+            // controller using dat.gui
+            //
             var AniController = function()
             {
                 this.frameRate = mAni.frameRate;
@@ -91,13 +87,8 @@
                 {
                     mAni.dispose();
                     mAni = undefined;
-//                    delete mAni;
-
                     $('#' + imgTagID).remove();
-
-
                 }
-
             };
 
             function addController()
@@ -111,9 +102,6 @@
                 gui.add(aniController, "pause");
                 gui.add(aniController, "kill");
 
-
-//            gui.add(text, 'explode');
-
                 frameRateListener.onChange( function(inValue)
                 {
                     var num = Math.round(inValue);
@@ -121,15 +109,12 @@
 
                     mAni.pause();
                     mAni.play();
-
-
                 });
 
                 seekListener.onChange( function(inValue)
                 {
                     var num = Math.round(inValue);
                     mAni.gotoAndStop(num);
-
                 });
             }
 
