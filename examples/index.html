@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSLib - seqAni</title>
+
+    <script src="../deploy/imageSequence.js"></script>
+    <script src="scripts/jquery-2.0.3.min.js"></script>
+
+
+    <style>
+        body
+        {
+            margin: 0;
+
+        }
+    </style>
+
+
+    <script>
+        // bind to window onload event
+        window.addEventListener('load', onloadHandler, false);
+
+        function onloadHandler()
+        {
+            // Set up a sequence sprite
+            var imgTagID = "aniHolder1";
+            var imgFilePath = "images/sample1_x.jpg";
+            var imgTotal = 60;
+            var frameRate = 60;
+
+            var mAni = new ImageSequence(imgTagID, imgFilePath, imgTotal, frameRate);
+            //mAni.autoAplay = true;
+            //mAni.autoLoop = true;
+
+
+            // Set Event Callbacks
+            mAni.updateLoadFunc = onUpdateLoadSeq;
+            mAni.finishedLoadFunc = onFinishedLoadSeq;
+            mAni.sequenceIsReadyFunc = onSequenceIsReady;
+
+
+            // Start to load image sequences
+            mAni.loadSeq();
+
+
+
+
+            // Event Callbacks
+            function onUpdateLoadSeq(inLoadedImages, inTotalImages)
+            {
+                console.log(" -- loaded : " + inLoadedImages + " / " + inTotalImages);
+            }
+
+            function onFinishedLoadSeq()
+            {
+                console.log(" -- onFinishedLoadSeq");
+            }
+
+            function onSequenceIsReady()
+            {
+                console.log(" -- onSequenceIsReady");
+            }
+
+
+
+//            function updateResult()
+//            {
+//                window.requestAnimationFrame(updateResult);
+//
+//
+//                // TODO CLOSED
+////        var speed = ( alpha - currentAngle )*1.0;
+////        currentAngle += speed;
+//
+//
+//                console.log("update");
+//                var seekToTime = imgTotal * (360.0 - alpha)/360.0;
+//                if( seekToTime < 0 ) seekToTime = 0;
+//                else if (seekToTime >= imgTotal ) seekToTime = imgTotal-1;
+//
+//
+//                mAni.gotoAndStop( Math.round(seekToTime));
+//
+//            }
+        }
+    </script>
+
+</head>
+<body>
+
+
+<img id="aniHolder1" src="" />
+
+
+
+
+
+
+
+</body>
+</html>
