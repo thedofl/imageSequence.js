@@ -86,11 +86,7 @@ var ImageSequence = function(inImgTagID, inImageFilePath, inImageTotal, inFrameR
 ImageSequence.prototype.loadSeq = function(inAutoPlay, inAutoLoop)
 {
 
-    if(typeof inAutoPlay !== 'undefined')
-    {
-        this.autoPlay = inAutoPlay;
-        console.log("dfdf");
-    }
+    if(typeof inAutoPlay !== 'undefined') this.autoPlay = inAutoPlay;
     if(typeof inAutoLoop !== 'undefined') this.autoLoop = inAutoLoop;
 
 
@@ -114,8 +110,9 @@ ImageSequence.prototype.loadSeq = function(inAutoPlay, inAutoLoop)
 
     }
 
-    psyImageLoader.loadByContainer( this.$imgLoader, $.proxy(this.onLoadedSequence, this),$.proxy(this.onUpdateLoadSequence, this));
 
+    // Check if images are loaded
+    psyImageLoader.loadByContainer( this.$imgLoader, $.proxy(this.onLoadedSequence, this),$.proxy(this.onUpdateLoadSequence, this));
 
 };
 
@@ -272,11 +269,6 @@ ImageSequence.prototype.setImageTagSize = function()
 */
 
 
-/* ---------------------------------------------------------------------------------
- *
- * LOOP ANIMATION
- *
- --------------------------------------------------------------------------------- */
 ImageSequence.prototype.loop = function()
 {
 
@@ -300,10 +292,6 @@ ImageSequence.prototype.loop = function()
             this.$imgLoader.css({"display": "none"});
         }
     }
-
-
-
-
 
 };
 
