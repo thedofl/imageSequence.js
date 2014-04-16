@@ -2,70 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_0.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_0.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_1.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_10.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_10.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_11.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_11.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_12.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_12.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_13.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_13.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_14.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_14.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_15.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_15.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_16.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_16.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_17.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_17.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_18.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_18.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_19.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_19.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_2.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_20.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_20.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_21.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_21.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_22.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_22.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_23.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_23.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_24.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_24.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_25.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_25.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_26.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_26.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_27.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_27.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_28.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_28.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_29.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_29.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_3.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_30.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_30.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_31.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_31.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_32.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_32.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_33.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_33.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_34.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_34.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_35.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_35.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_36.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_36.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_37.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_37.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_38.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_38.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_39.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_39.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_4.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_40.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_40.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_41.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_41.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_42.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_42.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_43.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_43.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_44.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_44.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_45.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_45.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_46.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_46.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_47.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_47.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_48.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_48.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_49.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_49.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_5.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_50.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_50.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_51.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_51.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_52.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_52.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_53.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_53.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_54.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_54.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_55.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_55.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_56.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_56.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_57.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_57.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_58.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_58.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_59.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_59.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_6.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_7.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_7.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_8.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_8.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/images/seq_9.jpg" afterPath="$PROJECT_DIR$/examples/images/seq_9.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/ex_basic.html" afterPath="$PROJECT_DIR$/examples/ex_basic.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/ex_loop.html" afterPath="$PROJECT_DIR$/examples/ex_loop.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/ex_seek.html" afterPath="$PROJECT_DIR$/examples/ex_seek.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/index.html" afterPath="$PROJECT_DIR$/examples/index.html" />
     </list>
     <ignored path="imageSequenceJS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,8 +13,9 @@
     <file path="/imageSequence.js" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397669430098" ignored="false" />
     <file path="/rotation.html" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397664061369" ignored="false" />
     <file path="/ex_loop.html" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397669498326" ignored="false" />
-    <file path="/ex_basic.html" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397672575110" ignored="false" />
+    <file path="/ex_basic.html" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397673222160" ignored="false" />
     <file path="/ex_seek.html" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397672638708" ignored="false" />
+    <file path="/dummy.xml" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397672898448" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +56,7 @@
       <file leaf-file-name="ex_basic.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/ex_basic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="4" selection-start="3142" selection-end="3171" vertical-scroll-proportion="-19.081633">
+            <state line="108" column="60" selection-start="2945" selection-end="3069" vertical-scroll-proportion="-14.795918">
               <folding />
             </state>
           </provider>
@@ -125,7 +65,7 @@
       <file leaf-file-name="ex_loop.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/ex_loop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="33" selection-start="2303" selection-end="2303" vertical-scroll-proportion="-41.875">
+            <state line="79" column="60" selection-start="2150" selection-end="2150" vertical-scroll-proportion="-34.375">
               <folding />
             </state>
           </provider>
@@ -134,7 +74,7 @@
       <file leaf-file-name="ex_seek.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/ex_seek.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="0" selection-start="2302" selection-end="2302" vertical-scroll-proportion="1.3195021">
+            <state line="82" column="0" selection-start="1919" selection-end="1919" vertical-scroll-proportion="0.30290458">
               <folding />
             </state>
           </provider>
@@ -162,6 +102,7 @@
         <option value="$PROJECT_DIR$/examples/ex_rotation.html" />
         <option value="$PROJECT_DIR$/deploy/imageSequence.js" />
         <option value="$PROJECT_DIR$/examples/index.html" />
+        <option value="$PROJECT_DIR$/examples/css/basic.css" />
         <option value="$PROJECT_DIR$/examples/ex_basic.html" />
         <option value="$PROJECT_DIR$/examples/ex_loop.html" />
         <option value="$PROJECT_DIR$/examples/ex_seek.html" />
@@ -262,6 +203,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imageSequenceJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imageSequenceJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="deploy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -282,6 +241,22 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="embedded" />
@@ -426,20 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/ex_basic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="4" selection-start="3142" selection-end="3171" vertical-scroll-proportion="-19.081633">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/ex_loop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="33" selection-start="2303" selection-end="2303" vertical-scroll-proportion="-41.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="26" selection-start="638" selection-end="667" vertical-scroll-proportion="-16.25">
@@ -447,9 +408,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/examples/css/basic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="188" selection-end="188" vertical-scroll-proportion="0.215311">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ex_basic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="60" selection-start="2945" selection-end="3069" vertical-scroll-proportion="-14.795918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ex_loop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="60" selection-start="2150" selection-end="2150" vertical-scroll-proportion="-34.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/examples/ex_seek.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="0" selection-start="2302" selection-end="2302" vertical-scroll-proportion="1.3195021">
+        <state line="82" column="0" selection-start="1919" selection-end="1919" vertical-scroll-proportion="0.30290458">
           <folding />
         </state>
       </provider>

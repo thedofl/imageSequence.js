@@ -1,0 +1,18 @@
+body
+{
+    margin: 50px;
+}
+
+img
+{
+    border-style:solid;
+    border-width: 1px;
+    border-color:lightgray;
+}
+
+#gui-container
+{
+    position: absolute;
+    left: 462px;
+    top: 132px;
+}

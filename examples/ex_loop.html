@@ -3,25 +3,11 @@
 <head>
     <title>imageSequence.js example</title>
 
+    <link rel="stylesheet" type="text/css" href="css/basic.css">
 
     <script src="../deploy/imageSequence.js"></script>
     <script src="scripts/jquery-2.0.3.min.js"></script>
     <script src="scripts/dat.gui.min.js"></script>
-
-
-    <style>
-        body
-        {
-            margin: 50px;
-        }
-
-        img
-        {
-            border-style:solid;
-            border-width: 1px;
-            border-color:lightgray;
-        }
-    </style>
 
 
     <script>
@@ -90,7 +76,8 @@
 
                 });
 
-
+                var customContainer = document.getElementById('gui-container');
+                customContainer.appendChild(gui.domElement);
             }
 
         }
@@ -106,7 +93,7 @@
 <img id="seqHolder" src="" />
 
 
-
+<div id="gui-container"></div>
 
 
 
