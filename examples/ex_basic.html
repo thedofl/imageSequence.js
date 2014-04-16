@@ -38,7 +38,9 @@
             //
             // Start to load image sequences
             //
-            mAni.loadSeq();
+            var autoPlay = false; // Set not to play automatically
+            var autoLoop = true;
+            mAni.loadSeq(autoPlay, autoLoop);
 
             //
             // Event Callbacks

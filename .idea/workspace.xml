@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/index.html" afterPath="$PROJECT_DIR$/examples/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/ex_basic.html" afterPath="$PROJECT_DIR$/examples/ex_basic.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/imageSequence.js" afterPath="$PROJECT_DIR$/deploy/imageSequence.js" />
     </list>
     <ignored path="imageSequenceJS.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397673722275" ignored="false" />
     <file path="/index.html" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397680791940" ignored="false" />
-    <file path="/imageSequence.js" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397669430098" ignored="false" />
+    <file path="/imageSequence.js" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397682585428" ignored="false" />
     <file path="/rotation.html" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397664061369" ignored="false" />
     <file path="/ex_loop.html" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397669498326" ignored="false" />
-    <file path="/ex_basic.html" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397673222160" ignored="false" />
+    <file path="/ex_basic.html" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397682630956" ignored="false" />
     <file path="/ex_seek.html" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397672638708" ignored="false" />
     <file path="/dummy.xml" changelist="6f0fb739-5fbc-4e95-b849-e6d9c3354bb0" time="1397672898448" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,8 +37,10 @@
       <file leaf-file-name="imageSequence.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deploy/imageSequence.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="339" column="36" selection-start="7497" selection-end="7497" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,10 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ex_basic.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ex_basic.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/ex_basic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="60" selection-start="2945" selection-end="3069" vertical-scroll-proportion="0.0">
+            <state line="30" column="14" selection-start="823" selection-end="823" vertical-scroll-proportion="0.24390244">
               <folding />
             </state>
           </provider>
@@ -70,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ex_seek.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ex_seek.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/ex_seek.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="12" selection-start="317" selection-end="317" vertical-scroll-proportion="0.14634146">
+            <state line="4" column="0" selection-start="74" selection-end="74" vertical-scroll-proportion="-2.5">
               <folding />
             </state>
           </provider>
@@ -100,11 +102,11 @@
         <option value="$PROJECT_DIR$/examples/rotation.html" />
         <option value="$PROJECT_DIR$/examples/ex_rotation.html" />
         <option value="$PROJECT_DIR$/examples/css/basic.css" />
-        <option value="$PROJECT_DIR$/examples/ex_basic.html" />
         <option value="$PROJECT_DIR$/examples/ex_loop.html" />
         <option value="$PROJECT_DIR$/examples/ex_seek.html" />
-        <option value="$PROJECT_DIR$/deploy/imageSequence.js" />
         <option value="$PROJECT_DIR$/examples/index.html" />
+        <option value="$PROJECT_DIR$/deploy/imageSequence.js" />
+        <option value="$PROJECT_DIR$/examples/ex_basic.html" />
       </list>
     </option>
   </component>
@@ -361,7 +363,9 @@
     <entry file="file://$PROJECT_DIR$/deploy/imageSequence.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -396,7 +400,9 @@
     <entry file="file://$PROJECT_DIR$/deploy/imageSequence.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -410,7 +416,9 @@
     <entry file="file://$PROJECT_DIR$/deploy/imageSequence.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -435,23 +443,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/ex_basic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="60" selection-start="2945" selection-end="3069" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/ex_loop.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="60" selection-start="2150" selection-end="2150" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deploy/imageSequence.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -465,7 +459,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/ex_seek.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="12" selection-start="317" selection-end="317" vertical-scroll-proportion="0.14634146">
+        <state line="4" column="0" selection-start="74" selection-end="74" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/imageSequence.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="339" column="36" selection-start="7497" selection-end="7497" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ex_basic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="14" selection-start="823" selection-end="823" vertical-scroll-proportion="0.24390244">
           <folding />
         </state>
       </provider>

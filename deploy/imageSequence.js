@@ -257,13 +257,21 @@ ImageSequence.prototype.onLoadedSequence = function()
 
 
     var self = this;
-    setTimeout(function(){
+    setTimeout(function()
+    {
+        if(self.autoPlay)
+        {
+            self.play();
+        }
+        else
+        {
+            self.gotoAndStop(0);
+        }
 
-            if(self.autoPlay)
-                self.play();
+        //self.setImageTagSize();
+        self.sequenceIsReadyFunc(); // Call ready callback
 
-            //self.setImageTagSize();
-            self.sequenceIsReadyFunc(); // Call ready callback
+
 
 
     },10);
@@ -297,6 +305,7 @@ ImageSequence.prototype.loop = function()
             }
             else
             {
+                this.currentNum = this.imageTotal -1;
                 this.pause();
             }
 
@@ -314,6 +323,7 @@ ImageSequence.prototype.loop = function()
             }
             else
             {
+                this.currentNum = this.imageTotal -1;
                 this.pause();
             }
 
@@ -327,6 +337,7 @@ ImageSequence.prototype.loop = function()
             }
             else
             {
+                this.currentNum = 0;
                 this.pause();
             }
 
