@@ -4,6 +4,9 @@
  * MIT License [http://www.opensource.org/licenses/mit-license.php]
 
 
+ Support URL:
+ https://github.com/thedofl/imageSequence.js
+
 
 
  // Quick Usage
