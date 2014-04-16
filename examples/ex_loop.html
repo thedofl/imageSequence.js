@@ -12,7 +12,14 @@
     <style>
         body
         {
-            margin: 0;
+            margin: 50px;
+        }
+
+        img
+        {
+            border-style:solid;
+            border-width: 1px;
+            border-color:lightgray;
         }
     </style>
 
@@ -28,7 +35,7 @@
             //
             var imgTagID = "seqHolder";
             var imgFilePath = "images/seq_x.jpg"; // image number counts from '0'
-            var imgTotal = 60;
+            var imgTotal = 90;
             var frameRate = 60;
 
             var mAni = new ImageSequence(imgTagID, imgFilePath, imgTotal, frameRate);
@@ -93,6 +100,8 @@
 </head>
 <body>
 
+<h2>Sample 2: Loop - Different type of loop</h2>
+<p>Try different type of loop</p>
 
 <img id="seqHolder" src="" />
 

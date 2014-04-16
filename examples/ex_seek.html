@@ -12,7 +12,14 @@
     <style>
         body
         {
-            margin: 0;
+            margin: 50px;
+        }
+
+        img
+        {
+            border-style:solid;
+            border-width: 1px;
+            border-color:lightgray;
         }
     </style>
 
@@ -28,8 +35,8 @@
             //
             var imgTagID = "seqHolder";
             var imgFilePath = "images/seq_x.jpg"; // image number counts from '0'
-            var imgTotal = 60;
-            var frameRate = 30;
+            var imgTotal = 90;
+            var frameRate = 60;
 
             var mAni = new ImageSequence(imgTagID, imgFilePath, imgTotal, frameRate);
 
@@ -127,6 +134,8 @@
 </head>
 <body>
 
+<h2>Sample 3: Seek - Dynamic seek</h2>
+<p>Try adjust 'seekTo' with different 'speedRatio' value.</p>
 
 <img id="seqHolder" src="" />
 
