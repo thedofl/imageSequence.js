@@ -54,10 +54,15 @@ var ImageSequence = function(inImgTagID, inImageFilePath, inImageTotal, inFrameR
 
 
 
+
     // Play properties
     this.autoPlay = true;
     this.autoLoop = true;
 
+
+    this.loopDirection = ImageSequence.CONST_LOOP_DIR_BASIC;
+
+    this.playDir = 1;
 
 
     // Event Callbacks
@@ -65,6 +70,9 @@ var ImageSequence = function(inImgTagID, inImageFilePath, inImageTotal, inFrameR
     this.finishedLoadFunc = $.noop;
     this.updateLoadFunc = $.noop;
     //this.finishedAnimationFunc = $.noop;
+
+
+
 
 
     this.settings = {
@@ -75,6 +83,9 @@ var ImageSequence = function(inImgTagID, inImageFilePath, inImageTotal, inFrameR
 
 
 };
+
+ImageSequence.CONST_LOOP_DIR_BASIC = "loop_dir_basic";
+ImageSequence.CONST_LOOP_DIR_PINGPING = "loop_dir_pingPong";
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -272,26 +283,77 @@ ImageSequence.prototype.setImageTagSize = function()
 ImageSequence.prototype.loop = function()
 {
 
+    if(this.loopDirection == ImageSequence.CONST_LOOP_DIR_BASIC)
+    {
+        this.currentNum ++;
+        if(this.currentNum >= this.imageTotal)
+        {
+            if(this.autoLoop)
+            {
+                this.currentNum = 0;
+            }
+            else
+            {
+                this.pause();
+            }
+
+        }
+    }
+    else if(this.loopDirection == ImageSequence.CONST_LOOP_DIR_PINGPING)
+    {
+        this.currentNum += this.playDir;
+        if(this.currentNum >= this.imageTotal)
+        {
+            if(this.autoLoop)
+            {
+                this.playDir = -1;
+                this.currentNum = this.imageTotal -2;
+            }
+            else
+            {
+                this.pause();
+            }
+
+        }
+        else if (this.currentNum < 0)
+        {
+            if(this.autoLoop)
+            {
+                this.playDir = 1;
+                this.currentNum = 1;
+            }
+            else
+            {
+                this.pause();
+            }
+
+
+        }
+    }
+
+
+
+
+
     this.drawCurrentFrame();
 
 
-    this.currentNum++;
-    if(this.currentNum >= this.imageTotal)
+
+    // TODO - check if still need or set first time
+    // Set 'Display' as 'none' to get better performance
+    // It makes slow animation if set first time so handle end of animation
+    if(this.isFirstLoop)
     {
-        if(this.autoLoop) this.currentNum = 0;
-        else this.pause();
-
-
-
-        // TODO - check if still need or set first time
-        // Set 'Display' as 'none' to get better performance
-        // It makes slow animation if set first time so handle end of animation
-        if(this.isFirstLoop)
+        if(this.currentNum >= this.imageTotal)
         {
-            this.isFirstLoop = false;
-            this.$imgLoader.css({"display": "none"});
+            if(this.isFirstLoop)
+            {
+                this.isFirstLoop = false;
+                this.$imgLoader.css({"display": "none"});
+            }
         }
     }
+
 
 };
 

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>imageSequence.js example</title>
+
+
+    <script src="../deploy/imageSequence.js"></script>
+    <script src="scripts/jquery-2.0.3.min.js"></script>
+    <script src="scripts/dat.gui.min.js"></script>
+
+
+    <style>
+        body
+        {
+            margin: 0;
+        }
+    </style>
+
+
+    <script>
+        // bind to window onload event
+        window.addEventListener('load', onloadHandler, false);
+
+        function onloadHandler()
+        {
+            //
+            // Set up a sequence sprite
+            //
+            var imgTagID = "seqHolder";
+            var imgFilePath = "images/seq_x.jpg"; // image number counts from '0'
+            var imgTotal = 60;
+            var frameRate = 60;
+
+            var mAni = new ImageSequence(imgTagID, imgFilePath, imgTotal, frameRate);
+
+
+
+            //
+            // Set Event Callbacks
+            //
+            mAni.sequenceIsReadyFunc = onSequenceIsReady;
+
+            //
+            // Start to load image sequences
+            //
+            mAni.loadSeq();
+
+
+            function onSequenceIsReady()
+            {
+                //console.log(" -- onSequenceIsReady");
+                addController();
+
+            }
+
+
+
+            //
+            // controller using dat.gui
+            //
+            var AniController = function()
+            {
+                this.frameRate = mAni.frameRate;
+                this.loopType = 0;
+
+            };
+
+            function addController()
+            {
+                var aniController = new AniController();
+                var gui = new dat.GUI();
+
+                var loopDirListener = gui.add(aniController, 'loopType', { basic: 0, pingPong: 1 } );
+
+
+
+                loopDirListener.onChange( function(inValue)
+                {
+                    if(inValue == 0)
+                        mAni.loopDirection = ImageSequence.CONST_LOOP_DIR_BASIC;
+                    else
+                        mAni.loopDirection = ImageSequence.CONST_LOOP_DIR_PINGPING;
+
+                });
+
+
+            }
+
+        }
+
+    </script>
+
+</head>
+<body>
+
+
+<img id="seqHolder" src="" />
+
+
+
+
+
+
+
+</body>
+</html>
