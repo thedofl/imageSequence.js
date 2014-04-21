@@ -399,12 +399,16 @@ var psyImageLoader = psyImageLoader || ( function () {
 
         $obj.find('*').each(function(i){
             var url;
-            if($(this).attr('src') && this.nodeName == "IMG"){
+            if($(this).attr('src') && this.nodeName == "IMG")
+            {
                 url = $(this).attr('src');
-            }else if($(this).css('backgroundImage')){
+            }
+            else if($(this).css('backgroundImage'))
+            {
                 url = $(this).css('backgroundImage');
             }
-            if(url && url != 'none'){
+            if(url && url != 'none')
+            {
                 url = url.replace('url(', '');
                 url = url.replace(')', '');
                 url = url.replace(/"/g, '');
@@ -412,7 +416,8 @@ var psyImageLoader = psyImageLoader || ( function () {
             }
         });
 
-        if(totalUnloadedImages == 0){
+        if(totalUnloadedImages == 0)
+        {
             eachFunc(1, 1);
             finishedFunc();
             return;
@@ -421,7 +426,8 @@ var psyImageLoader = psyImageLoader || ( function () {
         var loaderID = date.getTime();
         $obj.attr('loaderID', loaderID);
         completedImages = totalUnloadedImages;
-        function loadCompletedHandler(){
+        function loadCompletedHandler()
+        {
             completedImages--;
             eachFunc(totalUnloadedImages - completedImages, totalUnloadedImages);
             if(completedImages == 0){
@@ -429,16 +435,14 @@ var psyImageLoader = psyImageLoader || ( function () {
                 finishedFunc();
             }
         }
-        for(var i=0; i<totalUnloadedImages; i++){
+        for(var i=0; i<totalUnloadedImages; i++)
+        {
             var $img = $('<img src="' + lists[i] + '"></img>');
-//	        psyTracer("lists[i]" + lists[i]);
             $img.bind('load', function(){
-//	            psyTracer('load', $(this)[0].width, $(this).attr('src'));
                 loadCompletedHandler();
             }).error(function(){
                     loadCompletedHandler();
                     console.log('error');
-                    //psyTracer('error');
                 });
         }
     }
