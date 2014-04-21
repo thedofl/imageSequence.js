@@ -29,8 +29,8 @@ Setup
 
 ### 1. Setup an instance of image sequence sprite
 ```javascript
-var imgTagID = "aniHolder1";
-var imgFilePath = "images/sample1_x.jpg"; // image number counts from '0'
+var imgTagID = "aniHolder";
+var imgFilePath = "images/seq_x.jpg"; // image number counts from '0'
 var imgTotal = 60;
 var frameRate = 30;
 
