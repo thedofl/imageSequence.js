@@ -5,6 +5,16 @@
 
     <link rel="stylesheet" type="text/css" href="css/basic.css">
 
+    <style type="text/css">
+        #gui-container
+        {
+            position: absolute;
+            left: 704px;
+            top: 132px;
+        }
+    </style>
+
+
     <script src="../deploy/imageSequence.js"></script>
     <script src="scripts/jquery-2.0.3.min.js"></script>
     <script src="scripts/dat.gui.min.js"></script>
@@ -20,14 +30,15 @@
             // Set up a sequence sprite
             //
             var imgTagID = "seqHolder";
-            var imgFilePath = "images/seq_x.jpg"; // image number counts from '0'
-            var imgTotal = 90;
+            //var imgFilePath = "images/seq_x.jpg"; // image number counts from '0'
+            var imgFilePath = "images/msg_x.jpg"; // image number counts from '0'
+            var imgTotal = 156;//90;
             var frameRate = 60;
 
             var mAni = new ImageSequence(imgTagID, imgFilePath, imgTotal, frameRate);
 
 
-            var trgFrame =  Math.round(imgTotal*0.5);
+            var trgFrame =  0;//Math.round(imgTotal*0.5);
             var speedRatio = 0.1;
             var currentFrame = 0;
 
@@ -75,7 +86,13 @@
                     mAni.gotoAndStop(Math.round(currentFrame));
                 }
 
-            }
+            };
+
+
+
+
+
+
 
 
 

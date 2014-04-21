@@ -38,9 +38,7 @@
             //
             // Start to load image sequences
             //
-            var autoPlay = false; // Set not to play automatically
-            var autoLoop = true;
-            mAni.loadSeq(autoPlay, autoLoop);
+            mAni.loadSeq();
 
             //
             // Event Callbacks
@@ -102,8 +100,12 @@
                     var num = Math.round(inValue);
                     mAni.frameRate = num;
 
-                    mAni.pause();
-                    mAni.play();
+                    if(mAni.isAnimationOn)
+                    {
+                        mAni.pause();
+                        mAni.play();
+                    }
+
                 });
 
 
