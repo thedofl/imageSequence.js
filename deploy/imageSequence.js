@@ -383,6 +383,8 @@ ImageSequence.prototype.drawCurrentFrame = function()
 //
 //
 // IMAGE LOADER
+// by Emily Park
+//
 //
 //
 
